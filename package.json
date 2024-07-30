@@ -1,0 +1,21 @@
+{
+  "name": "esempla-retail-cypress",
+  "version": "1.0.0",
+  "description": "Esempla Retail Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "investor": "cypress run cypress/e2e/investor/*.js",
+    "operator": "cypress run cypress/e2e/adminOperator/*.js",
+    "admin": "cypress run --file ..",
+    "export": "...."
+  },
+  "author": "Dumitru Rotaru",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
